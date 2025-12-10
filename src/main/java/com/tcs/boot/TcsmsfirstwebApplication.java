@@ -40,9 +40,10 @@ public class TcsmsfirstwebApplication implements ApplicationRunner {
 		p1.setQty(12);
 		p1.setPrice(300);
 		repository.save(p1);
+		System.out.println("==============================");
 		System.out.println("this is product");
 		System.out.println(p1);
-		
+		System.out.println("==============================");
 		
 		
 		
